@@ -23,3 +23,4 @@ I assume the input data for this model is always a 3 × 30 × 30 PyTorch
 I had to reshape tensors to (b × p) size before feeding them to the first fully-connected layer, where b is the batch size and p is the length of feature vector.
 
 With a 3 hidden-layer CNN (i.e. [8, 16, 32, "pool"]), run python main.py -m DeepCNN --layers 8 16 32 pool --transform norm.
+### (Code coming soon)
